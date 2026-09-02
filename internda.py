@@ -7,7 +7,7 @@ import os
 
 # --- PAGE CONFIGURATION ---
 st.set_page_config(page_title="Clinic No-Show Analytics", layout="wide", page_icon="")
-st.title("🏥 Clinic Appointment No-Show Analytics Dashboard")
+st.title("🏥 Clinic Appointment No-Show Analytics")
 
 # --- DATA LOADING & PREPROCESSING ---
 @st.cache_data
