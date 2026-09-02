@@ -14,7 +14,7 @@ st.title("🏥 Clinic Appointment No-Show Analytics Dashboard")
 def load_and_process_data():
     """Loads Excel/CSV and performs essential preprocessing."""
 
-    file_path = "clinic_appointment.csv.xlsx"
+    file_path = r"D:\Internship\clinic_appointment.csv.xlsx"
 
     if not os.path.exists(file_path):
         st.error(f"❌ File '{file_path}' not found! Please place it in the same folder.")
@@ -191,7 +191,3 @@ with row2_col2:
     ])
     fig_sms.update_layout(barmode='stack', title="Attendance vs SMS Status", template="plotly_white")
     st.plotly_chart(fig_sms, width='stretch')
-
-# --- FOOTER ---
-
-
