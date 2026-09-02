@@ -7,9 +7,9 @@ import os
 
 # --- PAGE CONFIGURATION ---
 st.set_page_config(page_title="Clinic No-Show Analytics", layout="wide", page_icon="")
-st.title("🏥 Clinic Appointment No-Show Analytics dsahboard")
+st.title("Clinic Appointment No-Show Analytics Dashboard")
 
-# --- DATA LOADING & PREPROCESSING ---
+#DATA LOADING & PREPROCESSING
 @st.cache_data
 def load_and_process_data():
     """Loads Excel/CSV and performs essential preprocessing."""
