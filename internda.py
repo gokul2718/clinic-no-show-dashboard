@@ -14,7 +14,7 @@ st.title("🏥 Clinic Appointment No-Show Analytics Dashboard")
 def load_and_process_data():
     """Loads Excel/CSV and performs essential preprocessing."""
 
-    file_path = r"D:\Internship\clinic_appointment.csv.xlsx"
+    file_path = file_path = "clinic_appointment.csv.xlsx"
 
     if not os.path.exists(file_path):
         st.error(f"❌ File '{file_path}' not found! Please place it in the same folder.")
