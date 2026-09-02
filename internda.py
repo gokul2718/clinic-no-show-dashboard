@@ -193,5 +193,5 @@ with row2_col2:
     st.plotly_chart(fig_sms, width='stretch')
 
 # --- FOOTER ---
-st.divider()
-st.caption("Dashboard powered by Streamlit & Plotly | Data Source: KaggleV2-May-2016")
+
+
